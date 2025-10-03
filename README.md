@@ -1,4 +1,4 @@
-# CV Repository
+# Byeongmin's CV Repository
 
 This repository contains my CV in both English (`eng/`) and Korean (`kor/`) versions. To compile the PDFs, use `xelatex filename.tex` in the respective directories, as the templates require XeLaTeX for proper font rendering and Korean text support.
 
