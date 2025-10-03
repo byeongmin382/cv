@@ -4,7 +4,7 @@ This repository contains my CV in both English (`eng/`) and Korean (`kor/`) vers
 
 ## Last update
 
-Last updated on October 3rd, 2025. The Korean CV is outdated.
+Last updated on October 3rd, 2025. The Korean CV is outdated -- please refer to my English CV for updates.
 
 ## Required Packages
 
