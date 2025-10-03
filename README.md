@@ -2,6 +2,10 @@
 
 This repository contains my CV in both English (`eng/`) and Korean (`kor/`) versions. To compile the PDFs, use `xelatex filename.tex` in the respective directories, as the templates require XeLaTeX for proper font rendering and Korean text support.
 
+## Last update
+
+Last updated on October 3rd, 2025. The Korean CV is outdated.
+
 ## Required Packages
 
 The templates require the following LaTeX packages:
