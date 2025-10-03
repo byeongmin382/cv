@@ -1,0 +1,258 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\usepackage{xetexko}
+\setmainfont{Source Han Sans KR}
+\setmainhangulfont{Source Han Sans KR}
+
+%\setmainfont{KoPub Batang Medium.TTF}
+%\setmainhangulfont[
+%BoldFont={KoPub Batang Bold.TTF}
+%]{KoPub Batang Medium.TTF}
+
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage{fullpage} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage[]{kotex}
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge 고병민}\bigskip\par} % Your name
+
+\section{인적사항}
+
+\begin{tabular}{rl}
+\textsc{출생지 및 생년월일:} & 대한민국, 1999년 9월 20일 \\
+\textsc{주소:} & 서울시 노원구 동일로241길
+53 107동 502호 \\
+\textsc{전화:} & 010-2017-5320\\
+\textsc{이메일:} & \href{mailto:ko@kobm.xyz}{ko@kobm.xyz}
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE 
+%----------------------------------------------------------------------------------------
+
+\section{경력 및 봉사활동}
+
+\begin{tabular}{r|p{11cm}}
+
+    \textsc{2023.11.-현재} & 사업 PM, \href{https://company.nexon.com/ko/}{넥슨코리아} FC액션사업팀 \\
+    &\footnotesize{\vspace{-2mm}
+        \begin{itemize}
+            \item 부분유료화 온라인게임 \href{https://fconline.nexon.com}{FC Online}의 웹이벤트, 프로모션 및 배틀패스를
+        기획 및 운영하며 트래픽과 유료화 지표 개선에 기여. 
+    \item 사업 PM 업무 제반
+        \begin{itemize}
+            \item 데이터 추출/리포트 제작/분석, 신규 프로젝트 기획, 유관 부서와의 협업,
+                라이브 이슈 대응, 사무 자동화, 몬테카를로 시뮬레이션 등
+        \end{itemize}
+\end{itemize}
+\vspace{-5mm}
+    }\\
+    \multicolumn{2}{c}{} \\
+	
+    \textsc{2023.06.-2023.11.} & 기업 전략 매니저 (인턴),
+\href{https://npixel.co.kr/}{엔픽셀} 기업전략실 사업성장팀 \\
+&\footnotesize{
+    자사 모바일 게임 관련 Growth 업무 제반 수행.
+    \begin{itemize}
+        \item 캐주얼 모바일게임 \href{https://pixelcraft.metapixel.io/}{Knight Survivors}의 런칭 전략 수립
+        \item 앱스토어 최적화(피쳐드 지면 등록, 스토어 자산 A/B 테스트 등)
+        \item 신규 유료화 상품 개발
+    \end{itemize}\vspace{-5mm}
+} \\
+	\multicolumn{2}{c}{} \\
+	
+	\textsc{2021.10.-2023.06.} & 사회복무요원, \href{http://bbedu.sen.go.kr}{\textsc{서울특별시북부교육지원청}} \emph{}\\
+	&\footnotesize{민원전화와 방문인을 응대하고 적절한 부서로 안내. 우편을 분류/발송 및 기록 관리 등 일반 행정업무 지원을 수행, 각종 민원의 발급을 지원.}\\
+	\multicolumn{2}{c}{} \\
+	
+	\textsc{아르바이트} & 연구 조수, 고려대학교 경제학과 \\ 
+	& \footnotesize{
+        \href{http://econ.korea.ac.kr/econ/?dt_team=%EB%82%A8%EC%9E%AC%ED%98%84-jae-nahm}{남재현
+    교수님}의 연구 조수로서 시장 조사 및 각종 프로젝트 관련 문건의
+요약\textperiodcentered교정 보조.}\\
+	\multicolumn{2}{c}{} \\
+	
+	%------------------------------------------------
+	\textsc{2020.09.-2020.12.} & 계량경제학 I (ECON301) 튜터, 고려대학교 \\
+	& \footnotesize{	\href{https://ctl.korea.ac.kr/front/content/view.do?content_seq=14}{KUPT
+			프로그램}에 참여하여 계량경제학 I 수업을 수강하는 학생들에게 주1회
+		튜토리얼을 제공. 선형회귀분석을 중심으로
+    \href{https://drive.google.com/file/d/1CJsRSpE2bg21PmoyaiDFtcpwFTPXwAAa/view}{계량경제학의
+기본 방법론과 한계, 그리고 그 해결방법을 강습.}} \\
+	\multicolumn{2}{c}{} \\
+	
+	%------------------------------------------------
+    \textsc{2019.01.-2019.02.} & 영어 교사 (자원봉사), 	\href{https://www.facebook.com/amy.englishclub}{\textsc{Amy's English Club}} (베트남 하노이) \emph{}\\
+    & \footnotesize{하노이의 학원
+        \href{https://www.facebook.com/amy.englishclub}{Amy's English Club}에서 다양한 연령대 대상의
+        영어 수업을 제공.
+        \href{https://drive.google.com/file/d/1Wb8tWkcThmKiy-Rv2OMMWRkrg-6ddooL/view}{(수업
+    자료 예시)}}\\
+	\multicolumn{2}{c}{} \\
+	
+	%------------------------------------------------
+	
+	\textsc{2018.01.-2019.08.} & 영어 과외교사 \emph{}\\
+	& \footnotesize{초등 및 고등 독해, 일상회화, 토플 시험 등 다양한 수준의 영어 수업을 제공.
+        \href{https://drive.google.com/file/d/1uuF_h_x29hSJ3l61F7Kzxi_kKohBBTpJ/view}{(수업 자료 예시)}	
+    }\\
+	
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{학력}
+
+\begin{tabular}{rl}	
+%------------------------------------------------
+
+\emph{2018-2024} & \textbf{경제학} 학부 과정 졸업\\& \normalsize\textbf{고려대학교 안암캠퍼스}, 서울
+\small (지도교수: 조원기 교수님.)\\
+&\normalsize \textsc{학점평점}: 4.15/4.5\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2020년 여름학기} & 독일 괴팅엔
+\textbf{Georg-August-Universitaet} 대학에
+교환학생으로 방문\\
+&\\
+
+%------------------------------------------------
+
+\textsc{2018년 3월}& \textbf{대원외국어고등학교} 졸업\\
+& 전공: 독일어
+\end{tabular}
+\\
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+\section{자격사항 및 장학금}
+
+\begin{tabular}{rl}
+    2023. 09. &  TOEIC Speaking: 200\\
+
+2022. 07. & 빅데이터분석기사\\
+	
+2020. 12. & 고려대학교 경제학과 진리장학금(100만원)\normalsize\\
+
+2019. 06. & TOEFL (iBT): 112\\
+
+2018. 07. & Goethe-Zertifikat B2\\
+
+2017. 12. & TOEIC: 990
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	LANGUAGES
+%----------------------------------------------------------------------------------------
+\\
+\section{언어}
+
+\begin{tabular}{rl}
+\textsc{영어:} & 매우 유창함\\
+
+\textsc{한국어:} & 모국어\\
+
+\textsc{독일어:} & 유창함(유럽언어기준 B2)\\
+\end{tabular}
+\\
+%----------------------------------------------------------------------------------------
+%	COMPUTER SKILLS 
+%----------------------------------------------------------------------------------------
+\section{컴퓨터 활용 능력}
+
+컴퓨터를 활용한 데이터 및 통계 분석에 익숙하여
+데이터 전처리, 탐구적 자료 분석(Exploratory data analysis),
+\href{https://www.sciencedirect.com/topics/mathematics/classical-inference}{패러미터
+추정}, 머신러닝 모형 추정, 데이터 시각화 등 수행 가능.
+
+다양한 자유 및 상용 소프트웨어를 사용한 사무 자동화에도 익숙함.
+
+\begin{tabular}{rl}
+중상급 지식: & GNU R, Microsoft Excel, MATLAB 및 GNU Octave, \\
+&리눅스(우분투, 페도라, 오픈수세), SQL (Snowflake, Trino, SSMS), \LaTeX
+\\
+\\
+기본적 지식: & Python, 서버 관리, 독커, 빔(Vim)
+
+\end{tabular}
+
+%\subsection*{예시}
+%
+%\begin{description}
+%	\item[GNU R을] 사용해 비정상 $k$-armed bandit problem을 시연하는 코드.
+%	2021년에 \href{http://shorten.kobm.xyz/s/reinforcedlearning2023}{강화학습을 공부}하며 작성:
+%	\url{http://shorten.kobm.xyz/s/bandit2023}
+%	
+%	\item[MATLAB (GNU Octave)을] 사용해 벡터자기회귀모형의
+%	임펄스 응답 함수를 계산하고 그 그래프를 표시하는 코드. 시계열 분석 수업을 들으며 작성: \url{http://shorten.kobm.xyz/s/matlabirf2023}
+%	
+%	\item[Python을] 사용해 \href{https://www.boannews.com/default.asp}{보안뉴스}의
+%	기사 제목, 본문 및 기자 정보를 \verb|beautifulsoup| 패키지를 사용해 수집하는 코드: 
+%	\url{http://shorten.kobm.xyz/s/boancrawl2023}
+%\end{description}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{흥미와 관심사}
+
+응용 수학, 경제학, 통계학 및 데이터 분석,\\
+의사결정, 행동경제학,\\
+프로그래밍, 오픈소스 소프트웨어, 정보 기술,\\
+인공지능, 물리 매체 수집, 블로그 및 \href{https://www.kobm.xyz}{개인 홈페이지} 운영.
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
