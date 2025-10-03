@@ -17,31 +17,18 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
-
 \usepackage{fontspec} % For loading fonts
 \defaultfontfeatures{Mapping=tex-text}
 \setmainfont[SmallCapsFont = IBM Plex Serif]{IBM Plex Serif} % Main document font
 \usepackage{kotex}
 \setmainhangulfont{Source Han Serif KR}
-
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
-
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
-
-%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-
 \usepackage{fullpage}
-% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
-
 \usepackage{hyperref} % Required for adding links	and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
-
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
@@ -49,8 +36,6 @@
 \begin{document}
 
 \pagestyle{empty} % Removes page numbering
-
-%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
 
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
@@ -74,16 +59,37 @@
 \section{Work / Volunteer Experience}
 
 \begin{tabular}{r|p{11cm}}
+
+    \textsc{June 2025-Current} & Operations Associate at
+    \href{https://www.need.ai}{\textsc{Need Inc}} \emph{}\\
+& \footnotesize{
+    \textbf{Workflow automation}: Spearheaded process improvement initiatives by mapping existing systems in Figma,
+    identifying key automation opportunities, and collaborating with engineering to implement streamlined workflows.
+
+    \vspace{2mm}
+
+    \textbf{Business Intelligence \& Data management}: Leveraged business intelligence skills
+    (Looker, BigQuery) to establish data-driven decision making; Created data pipelines
+    and streamlined data management. (Dataform, Google Sheets, Python, Git)
+
+    \vspace{2mm}
+    \textbf{User experience}: Optimized the customer onboarding journey through sound hypothesis from customer
+    data and rigorous A/B testing (PostHog).
+    }\\
+
+\multicolumn{2}{c}{} \\
     
-    \textsc{Nov 2023-Current} & Business Project Manager at
+    \textsc{Nov 2023-May 2025} & Business Project Manager at
     \href{https://www.nexon.com}{\textsc{NEXON KOREA}} \emph{}\\
-& \footnotesize{Responsible for creating and managing effective sales promotion and in-game
+& \footnotesize{Responsible for creating and managing effective sales promotions, events, and in-game
     products for
     \href{https://fconline.nexon.com}{EA Sports FC Online}, a free-to-play
-    multiplayer online football game.
+    online football game.
+
+    \vspace{2mm}
     
     \textbf{Highlights}: creating data reports and dashboards for internal use;
-    creating and executing online sales promotions;
+    creating and executing online promotions, events, and in-game products;
     launching and managing battle passes; data-driven decision making for
 traffic and revenue growth}\\
 \multicolumn{2}{c}{} \\
@@ -212,7 +218,7 @@ University
 %	COMPUTER SKILLS 
 %----------------------------------------------------------------------------------------
 
-\section{Computer Skills and Examples}
+\section{Computer Skills}
 
 I am comfortable with performing data cleansing, exploratory data analysis,
 model estimation (using classical statistic or machine learning methods),
@@ -221,9 +227,10 @@ softwares.
 
 \begin{tabular}{rl}
 Advanced knowledge: & GNU R, Microsoft Excel\\
-Intermediate Knowledge: & SQL, Python, MATLAB and GNU Octave, GNU GRETL,
-\\& Linux (Ubuntu, Fedora, OpenSUSE), \LaTeX\\
-Basic Knowledge: & Server administration, Docker, vim\\
+Intermediate Knowledge: & Dataform, SQL (BigQuery, Trino, Snowflake), Python,
+\\&MATLAB, GNU Octave, GNU GRETL, Looker, PostHog,
+\\&Linux (Ubuntu, Fedora, OpenSUSE), \LaTeX\\
+Basic Knowledge: & Server administration, Docker, vim, Git\\
 \end{tabular}
 
 %\subsection*{Examples}
@@ -245,18 +252,14 @@ Basic Knowledge: & Server administration, Docker, vim\\
 %    (Please open in any web browser.)
 %\end{description}
 
-\section{Tools}
+\section{Misellaneous tools}
 
 \begin{tabular}{rl}
-Advanced knowledge: & Microsoft Office, Google Workspace,
+Advanced knowledge: & Google Workspace,
     \href{https://www.adjust.com}{Adjust (MMP)},
-    \href{https://www.applovin.com}{Applovin}, \\
-    & \href{https://searchads.apple.com}{Apple Search Ads} \\
-    Intermediate Knowledge: & \href{https://cloud.google.com/bigquery}{Google
-    BigQuery},
-    \href{https://admob.google.com}{Google AdMob}, \\ 
-    & and many more
-    User Acquisition channels.
+    \href{https://www.applovin.com}{Applovin},
+    \href{https://searchads.apple.com}{Apple Search Ads} \\
+    Intermediate Knowledge: & \href{https://admob.google.com}{Google AdMob}
 \end{tabular}
 
 
@@ -267,18 +270,8 @@ Advanced knowledge: & Microsoft Office, Google Workspace,
 \section{Interests and Activities}
 
 Applied mathematics, Statistics and Data analysis,\\
-Decision making, Behavioral economics,\\
-Programming, Open-Source software, Information Technology,\\
-Book club organisation, Physical media collecting, Blogging, Dungeons and Dragons.
-
-\section{Misc.}
-
-\begin{description}
-    \item[Personal webpage] \href{https://www.kobm.xyz}{https://www.kobm.xyz}
-    \item[Steam profile] \href{https://steamcommunity.com/id/clydeBM/}{Click here to look me up on Steam!}
-\end{description}
-
-%----------------------------------------------------------------------------------------
-
+Decision making, Workflow automation, Information Technology,\\
+Behavioral economics, Programming, Open-Source software,\\
+Physical media collecting, Blogging.
 
 \end{document}
