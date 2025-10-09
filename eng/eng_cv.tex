@@ -17,10 +17,6 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
 \documentclass[a4paper,10pt]{article} % Default font size and paper size
 
 \usepackage{fontspec} % For loading fonts
@@ -30,15 +26,9 @@
 \setmainhangulfont{Source Han Serif KR}
 
 \usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
-
 \usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
-
-%\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
-
 \usepackage{fullpage}
-% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
-
-\usepackage{hyperref} % Required for adding links	and customizing them
+\usepackage{hyperref} % Required for adding links and customizing them
 \definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
 \hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
 
@@ -50,8 +40,6 @@
 
 \pagestyle{empty} % Removes page numbering
 
-%\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
-
 %----------------------------------------------------------------------------------------
 %	NAME AND CONTACT INFORMATION
 %----------------------------------------------------------------------------------------
@@ -62,85 +50,102 @@
 
 \begin{tabular}{rl}
 \textsc{Place and Date of Birth:} & South Korea  | 20 September 1999 \\
-\textsc{Address:} & 107-502, 53, Dongil-Ro 241- Gil, Nowon, Seoul, South Korea \\
-\textsc{Phone:} & +82 10 2017 5320\\
 \textsc{email:} & \href{mailto:ko@kobm.xyz}{ko@kobm.xyz}\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-%	WORK EXPERIENCE 
+%	WORK EXPERIENCE
 %----------------------------------------------------------------------------------------
 
 \section{Work / Volunteer Experience}
 
 \begin{tabular}{r|p{11cm}}
-    
-    \textsc{Nov 2023-Current} & Business Project Manager at
+    \textsc{June 2025-Current} & Operations Associate at
+    \href{https://www.need.ai}{\textsc{Need Inc}} \emph{}\\
+    & \footnotesize{
+        \textbf{Workflow automation}: Spearheaded process improvement initiatives by mapping existing systems in Figma,
+        identifying key automation opportunities, and collaborating with engineering to implement streamlined workflows.
+
+        \vspace{2mm}
+
+        \textbf{Business Intelligence \& Data management}: Leveraged business intelligence skills
+        (Looker, BigQuery) to establish data-driven decision making; Created data pipelines
+        and streamlined data management. (Dataform, Google Sheets, Python, Git)
+
+        \vspace{2mm}
+        \textbf{User experience}: Optimized the customer onboarding journey through sound hypothesis from customer
+        data and rigorous A/B testing (PostHog).
+    }\\
+
+    \multicolumn{2}{c}{} \\
+
+    \textsc{Nov 2023-May 2025} & Business Project Manager at
     \href{https://www.nexon.com}{\textsc{NEXON KOREA}} \emph{}\\
-& \footnotesize{Responsible for creating and managing effective sales promotion and in-game
-    products for
-    \href{https://fconline.nexon.com}{EA Sports FC Online}, a free-to-play
-    multiplayer online football game.
-    
-    \textbf{Highlights}: creating data reports and dashboards for internal use;
-    creating and executing online sales promotions;
-    launching and managing battle passes; data-driven decision making for
-traffic and revenue growth}\\
-\multicolumn{2}{c}{} \\
+    & \footnotesize{Responsible for creating and managing effective sales promotions, events, and in-game
+        products for
+        \href{https://fconline.nexon.com}{EA Sports FC Online}, a free-to-play
+        online football game.
+
+        \vspace{2mm}
+
+        \textbf{Highlights}: creating data reports and dashboards for internal use;
+        creating and executing online promotions, events, and in-game products;
+        launching and managing battle passes; data-driven decision making for
+        traffic and revenue growth}\\
+    \multicolumn{2}{c}{} \\
 
     \textsc{Jun 2023-Nov 2023} & Corporate Strategy Manager (Intern) at
     \href{https://www.npixel.co.kr}{\textsc{NPIXEL}} \emph{}\\
-& \footnotesize{Responsible for creating and executing 
-    growth strategies (revenue and traffic) for casual mobile game \href{https://play.google.com/store/apps/details?id=com.npixel.knightsurvivors}{\textsc{Knight Survivors}}.
-Conducted market research, user acquisition (Apple Search Ads), and prepared
-global launch strategy for the game, as well as boosting LTV via effective in-app
-purchases and in-app events.}\\
-\multicolumn{2}{c}{} \\
+    & \footnotesize{Responsible for creating and executing
+        growth strategies (revenue and traffic) for casual mobile game \href{https://play.google.com/store/apps/details?id=com.npixel.knightsurvivors}{\textsc{Knight Survivors}}.
+        Conducted market research, user acquisition (Apple Search Ads), and prepared
+        global launch strategy for the game, as well as boosting LTV via effective in-app
+        purchases and in-app events.}\\
+    \multicolumn{2}{c}{} \\
 
-\textsc{Oct 2021-Jun 2023} & Social Service Agent at \href{http://bbedu.sen.go.kr}{\textsc{Seoul Bukbu
-District Office of Education}} \emph{}\\
-& \footnotesize{Connected callers and visitors with appropriate department;
-performed various administrative functions, including sorting and sending
-mail, screening visitors and calls, and general office duties; created and
-issued various official certificates.}\\
-\multicolumn{2}{c}{} \\
+    \textsc{Oct 2021-Jun 2023} & Social Service Agent at \href{http://bbedu.sen.go.kr}{\textsc{Seoul Bukbu
+    District Office of Education}} \emph{}\\
+    & \footnotesize{Connected callers and visitors with appropriate department;
+        performed various administrative functions, including sorting and sending
+        mail, screening visitors and calls, and general office duties; created and
+        issued various official certificates.}\\
+    \multicolumn{2}{c}{} \\
 
-\textsc{Temporary Employment} & Research Assistant at Department of Economics, Korea University\\ 
-& \footnotesize{As a research assistant to
-    \href{http://econ.korea.ac.kr/econ/?dt_team=%EB%82%A8%EC%9E%AC%ED%98%84-jae-nahm}{Professor
-    Nahm}, drafted and revised summaries of the European Commission's decision (case M.7932) and related
-articles on Dow and Dupont's merger.}\\
-\multicolumn{2}{c}{} \\
+    \textsc{Temporary Employment} & Research Assistant at Department of Economics, Korea University\\
+    & \footnotesize{As a research assistant to
+        \href{http://econ.korea.ac.kr/econ/?dt_team=%EB%82%A8%EC%9E%AC%ED%98%84-jae-nahm}{Professor
+        Nahm}, drafted and revised summaries of the European Commission's decision (case M.7932) and related
+        articles on Dow and Dupont's merger.}\\
+    \multicolumn{2}{c}{} \\
 
-%------------------------------------------------
-\textsc{Sep 2020-Dec 2020} & Tutored Econometrics I (ECON301) at Korea
-University \\
-& \footnotesize{As a
-\href{https://ctl.korea.ac.kr/front/content/view.do?content_seq=14}{KUPT
-program} participant,
-I provided tutorials on introductory Econometric methods, focusing on linear
-regression models, their shortcomings and possible alternatives.
-\href{https://drive.google.com/file/d/1CJsRSpE2bg21PmoyaiDFtcpwFTPXwAAa/view?usp=sharing}{Click
-to see example tutorial materials.}} \\
-\multicolumn{2}{c}{} \\
+    %------------------------------------------------
+    \textsc{Sep 2020-Dec 2020} & Tutored Econometrics I (ECON301) at Korea
+    University \\
+    & \footnotesize{As a
+        \href{https://ctl.korea.ac.kr/front/content/view.do?content_seq=14}{KUPT
+        program} participant,
+        I provided tutorials on introductory Econometric methods, focusing on linear
+        regression models, their shortcomings and possible alternatives.
+        \href{https://drive.google.com/file/d/1CJsRSpE2bg21PmoyaiDFtcpwFTPXwAAa/view?usp=sharing}{Click
+        to see example tutorial materials.}} \\
+    \multicolumn{2}{c}{} \\
 
-%------------------------------------------------
-\textsc{Jan 2019-Feb 2019} & English Tutor at
-\href{https://www.facebook.com/amy.englishclub}{\textsc{Amy's English Club}}, Hanoi \emph{}\\
-& \footnotesize{Provided English communication
-and grammar courses and created instructional materials for adults and schoolchildren at a private language
-institution at Hanoi, Vietnam.
-\href{https://drive.google.com/file/d/1Wb8tWkcThmKiy-Rv2OMMWRkrg-6ddooL/view?usp=sharing}{Click
-to see example teaching materials.}}\\
-\multicolumn{2}{c}{} \\
+    %------------------------------------------------
+    \textsc{Jan 2019-Feb 2019} & English Tutor at
+    \href{https://www.facebook.com/amy.englishclub}{\textsc{Amy's English Club}}, Hanoi \emph{}\\
+    & \footnotesize{Provided English communication
+        and grammar courses and created instructional materials for adults and schoolchildren at a private language
+        institution at Hanoi, Vietnam.
+        \href{https://drive.google.com/file/d/1Wb8tWkcThmKiy-Rv2OMMWRkrg-6ddooL/view?usp=sharing}{Click
+        to see example teaching materials.}}\\
+    \multicolumn{2}{c}{} \\
 
-%------------------------------------------------
-
-\textsc{Jan 2018-Aug 2019} & Private English Tutor, Seoul \emph{}\\
-& \footnotesize{Taught English courses of varying
-levels, including elementary reading skills,
-everyday communication, and TOEFL exams. \href{https://drive.google.com/file/d/1uuF_h_x29hSJ3l61F7Kzxi_kKohBBTpJ/view?usp=sharing}{Click
-to see example teaching materials.}}\\
+    %------------------------------------------------
+    \textsc{Jan 2018-Aug 2019} & Private English Tutor, Seoul \emph{}\\
+    & \footnotesize{Taught English courses of varying
+        levels, including elementary reading skills,
+        everyday communication, and TOEFL exams. \href{https://drive.google.com/file/d/1uuF_h_x29hSJ3l61F7Kzxi_kKohBBTpJ/view?usp=sharing}{Click
+        to see example teaching materials.}}\\
 
 \end{tabular}
 
@@ -150,26 +155,23 @@ to see example teaching materials.}}\\
 
 \section{Education}
 
-\begin{tabular}{rl}	
-%------------------------------------------------
+\begin{tabular}{rl}
+    %------------------------------------------------
+    \emph{Feb 2024} & Undergraduate Degree in \textsc{}\textsc{Economics}
+    \\& \normalsize\textbf{Korea University}, Seoul.
+    \small (Advisor: Wonki \textsc{Cho})\\
+    &\normalsize \textsc{GPA}: 4.11/4.5 \\
+    &\\
 
-\emph{Feb 2024} & Undergraduate Degree in \textsc{}\textsc{Economics}
-\\& \normalsize\textbf{Korea University}, Seoul.
-\small (Advisor: Wonki \textsc{Cho})\\
-&\normalsize \textsc{GPA}: 4.11/4.5 \\
-&\\
+    %------------------------------------------------
+    \textsc{Summer} 2020 & Exchange Semester at \textbf{Georg-August-Universität},
+    Göttingen.\\
+    &\\
 
-%------------------------------------------------
-
-\textsc{Summer} 2020 & Exchange Semester at \textbf{Georg-August-Universität},
-Göttingen.\\
-&\\
-
-%------------------------------------------------
-
-\textsc{Mar} 2018& Graduated \textbf{Daewon
-Foreign Language High School}, Seoul.\\
-&Major: German Language\\
+    %------------------------------------------------
+    \textsc{Mar} 2018& Graduated \textbf{Daewon
+    Foreign Language High School}, Seoul.\\
+    &Major: German Language\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
@@ -181,17 +183,17 @@ Foreign Language High School}, Seoul.\\
 \begin{tabular}{rl}
     \textsc{Sep.} 2023 & TOEIC Speaking: 120 \\
 
-\textsc{Jul.} 2022 & Engineer Big Data Analysis (빅데이터분석기사)\\
+    \textsc{Jul.} 2022 & Engineer Big Data Analysis (빅데이터분석기사)\\
 
-\textsc{Dec.} 2020 & Faculty of Economics \textit{Jinri} Scholarship, Korea
-University
-\footnotesize(₩1M)\normalsize\\
+    \textsc{Dec.} 2020 & Faculty of Economics \textit{Jinri} Scholarship, Korea
+    University
+    \footnotesize(₩1M)\normalsize\\
 
-\textsc{Jun.} 2019 & TOEFL (IBT): 112\\
+    \textsc{Jun.} 2019 & TOEFL (IBT): 112\\
 
-\textsc{Jul.} 2018 & Goethe-Zertifikat B2\\
+    \textsc{Jul.} 2018 & Goethe-Zertifikat B2\\
 
-\textsc{Dec.} 2017 & TOEIC: 990\\
+    \textsc{Dec.} 2017 & TOEIC: 990\\
 \end{tabular}
 %----------------------------------------------------------------------------------------
 %	LANGUAGES
@@ -200,19 +202,18 @@ University
 \section{Languages}
 
 \begin{tabular}{rl}
-\textsc{English:} & Very fluent\\
+    \textsc{English:} & Very fluent\\
 
-\textsc{German:} & Fluent\\
+    \textsc{German:} & Fluent\\
 
-\textsc{Korean:} & Mother tongue\\
-
+    \textsc{Korean:} & Mother tongue\\
 \end{tabular}
 
 %----------------------------------------------------------------------------------------
-%	COMPUTER SKILLS 
+%	COMPUTER SKILLS
 %----------------------------------------------------------------------------------------
 
-\section{Computer Skills and Examples}
+\section{Computer Skills}
 
 I am comfortable with performing data cleansing, exploratory data analysis,
 model estimation (using classical statistic or machine learning methods),
@@ -220,10 +221,11 @@ data visualization, and task automation via various open-source or proprietary
 softwares.
 
 \begin{tabular}{rl}
-Advanced knowledge: & GNU R, Microsoft Excel\\
-Intermediate Knowledge: & SQL, Python, MATLAB and GNU Octave, GNU GRETL,
-\\& Linux (Ubuntu, Fedora, OpenSUSE), \LaTeX\\
-Basic Knowledge: & Server administration, Docker, vim\\
+    Advanced knowledge: & GNU R, Microsoft Excel\\
+    Intermediate Knowledge: & Dataform, SQL (BigQuery, Trino, Snowflake), Python,
+    \\&MATLAB, GNU Octave, GNU GRETL, Looker, PostHog,
+    \\&Linux (Ubuntu, Fedora, OpenSUSE), \LaTeX\\
+    Basic Knowledge: & Server administration, Docker, vim, Git\\
 \end{tabular}
 
 %\subsection*{Examples}
@@ -245,18 +247,14 @@ Basic Knowledge: & Server administration, Docker, vim\\
 %    (Please open in any web browser.)
 %\end{description}
 
-\section{Tools}
+\section{Misellaneous tools}
 
 \begin{tabular}{rl}
-Advanced knowledge: & Microsoft Office, Google Workspace,
+    Advanced knowledge: & Google Workspace,
     \href{https://www.adjust.com}{Adjust (MMP)},
-    \href{https://www.applovin.com}{Applovin}, \\
-    & \href{https://searchads.apple.com}{Apple Search Ads} \\
-    Intermediate Knowledge: & \href{https://cloud.google.com/bigquery}{Google
-    BigQuery},
-    \href{https://admob.google.com}{Google AdMob}, \\ 
-    & and many more
-    User Acquisition channels.
+    \href{https://www.applovin.com}{Applovin},
+    \href{https://searchads.apple.com}{Apple Search Ads} \\
+    Intermediate Knowledge: & \href{https://admob.google.com}{Google AdMob}
 \end{tabular}
 
 
@@ -267,18 +265,8 @@ Advanced knowledge: & Microsoft Office, Google Workspace,
 \section{Interests and Activities}
 
 Applied mathematics, Statistics and Data analysis,\\
-Decision making, Behavioral economics,\\
-Programming, Open-Source software, Information Technology,\\
-Book club organisation, Physical media collecting, Blogging, Dungeons and Dragons.
-
-\section{Misc.}
-
-\begin{description}
-    \item[Personal webpage] \href{https://www.kobm.xyz}{https://www.kobm.xyz}
-    \item[Steam profile] \href{https://steamcommunity.com/id/clydeBM/}{Click here to look me up on Steam!}
-\end{description}
-
-%----------------------------------------------------------------------------------------
-
+Decision making, Workflow automation, Information Technology,\\
+Behavioral economics, Programming, Open-Source software,\\
+Physical media collecting, Blogging.
 
 \end{document}
